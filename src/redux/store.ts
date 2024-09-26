@@ -4,4 +4,4 @@ import bookReducer from './reducers/bookReducer';
 
 const store = createStore(bookReducer, applyMiddleware(thunk));
 
-export { store };
+export default store;
