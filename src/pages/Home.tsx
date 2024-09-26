@@ -1,11 +1,10 @@
 import React from 'react';
-import AddBook from '../components/AddBook';
+import { Typography } from '@mui/material';
 
 const Home: React.FC = () => {
     return (
-        <div>
-            <h1>Library Management System</h1>
-            <AddBook />
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+            <Typography variant="h4">Welcome To Kata-Library Management System</Typography>
         </div>
     );
 };
